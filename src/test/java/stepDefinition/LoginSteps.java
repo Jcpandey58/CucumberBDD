@@ -24,7 +24,7 @@ public class LoginSteps {
 	@Given("User navigates to application")
 	public void userShouldNavigatetoApplication() {
 		driver.get("https://demowebshop.tricentis.com");
-		System.out.println("At implementation");
+		System.out.println("Url opened");
 	}
 	@Given("User clicks the login link")
 	public void userClicksTheLoginLink() {
